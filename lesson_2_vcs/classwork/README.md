@@ -5,3 +5,14 @@
 4. git pull
 5. git push
 6. git merge
+
+
+## Questions
+
+Мені цікаво, що виведе така програма?
+```python
+def foo():
+    return
+
+
+```
