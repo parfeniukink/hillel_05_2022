@@ -1,0 +1,8 @@
+# Mac
+.DS_Store
+
+# venv folder
+venv/
+
+# Editors / IDE
+.idea
