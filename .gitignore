@@ -10,3 +10,6 @@ venv/
 
 # Python stuff
 __pycache__/
+
+# Big files from cybesecurity
+rockyou.txt
