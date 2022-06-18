@@ -8,9 +8,7 @@ team: list[dict] = [
 ]
 
 
-def repr_players(
-    players: list[dict], sorted_: bool = False, keyword: str | None = "number"
-) -> None:
+def repr_players(players: list[dict], sorted_: bool = False, keyword: str | None = "number") -> None:
     print("TEAM:")
     if sorted_:
         # NOTE: Here we don't wan't to change the source `team` variable.

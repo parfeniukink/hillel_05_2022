@@ -16,9 +16,7 @@ def add_value(FILENAME: str, SWARCH_KEYWORD: str) -> tuple:
     results = []
     for line in read_file(FILENAME, SWARCH_KEYWORD):
         while True:
-            response = input(
-                f"Add keyword '{line}' to list? 'Enter' to add or 'n' - no: "
-            )
+            response = input(f"Add keyword '{line}' to list? 'Enter' to add or 'n' - no: ")
             if response == "":
                 results.append(line)
                 break
