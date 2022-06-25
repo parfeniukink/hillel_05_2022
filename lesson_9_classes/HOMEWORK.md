@@ -12,9 +12,10 @@ EN:
         - do a subtricttion of prices with same currency
 
 - *Additional: operations between prices with different currencies:
-    - If price instances currencies are different I want to do a convertion
+    - If price instances currencies are different I want to do a double convertion
         - USD is a middle currency
-        - If any prices currency is USD convertion is not happening
+        - If right price is USD the regular convertation (not double) is happening
+        - If prices currencies is the same convertion is not happening
         - Result currency after the operation is a currency of the price that is on the left or USD (for your decision)
 
 UA:
@@ -31,7 +32,10 @@ UA:
         - Віднімати ціни з однаковими валютами
 
 - *Додатково: операції з цінаи, у яких різні валюти:
-    - Якщо у двох цін відрізняються валюти повинна відбуватись повдійня конвертація
+    - Якщо у двох цін відрізняються валюти повинна відбуватись повдійна конвертація
         - USD використовується для проміжуточної конвертації
+        - Якщо у ціни справа валюта - USD відбувається звичайна конвертація, а не подвійна
         - Якщо у цін однакові валюти - конвертація не відбувається
         - Після операції над цінами - кінцева валюта - така ж як і лівого операнда, або USD (на Ваш вибір)
+
+
